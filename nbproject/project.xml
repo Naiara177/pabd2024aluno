@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.java.j2seproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+<<<<<<< HEAD
             <name>ProjetoNai</name>
+=======
+            <name>PABD2024</name>
+>>>>>>> fb677e993d63597f641fdba83a78b560cfda424a
             <source-roots>
                 <root id="src.dir"/>
             </source-roots>

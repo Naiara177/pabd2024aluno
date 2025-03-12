@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="autoRequestFocus" type="boolean" value="false"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="cc" red="cc" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="enabled" type="boolean" value="false"/>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+      <Font name="AcadEref" size="18" style="1"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jSeparator1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="415" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel3" max="32767" attributes="0"/>
+                                  <Component id="jLabel4" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" pref="294" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="jRadioButton4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jRadioButton2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRadioButton5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jRadioButton6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" pref="58" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jRadioButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRadioButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jRadioButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="157" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="     Cadastrar Usu&#xe1;rio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nome:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="sexo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Masculino"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Feminino"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Outro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hobbies:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Futebol"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jRadioButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Programa&#xe7;&#xe3;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Filmes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="286">
+            <StringItem index="0" value="Acari"/>
+            <StringItem index="1" value=" "/>
+            <StringItem index="2" value="Afonso Bezerra"/>
+            <StringItem index="3" value=" "/>
+            <StringItem index="4" value="&#xc1;gua Nova"/>
+            <StringItem index="5" value=" "/>
+            <StringItem index="6" value="Alexandria"/>
+            <StringItem index="7" value=" "/>
+            <StringItem index="8" value="Almino Afonso"/>
+            <StringItem index="9" value=" "/>
+            <StringItem index="10" value="Alto do Rodrigues"/>
+            <StringItem index="11" value=" "/>
+            <StringItem index="12" value="Angicos"/>
+            <StringItem index="13" value=" "/>
+            <StringItem index="14" value="Ant&#xf4;nio Martins"/>
+            <StringItem index="15" value=" "/>
+            <StringItem index="16" value="Apodi"/>
+            <StringItem index="17" value=" "/>
+            <StringItem index="18" value="Areia Branca"/>
+            <StringItem index="19" value=" "/>
+            <StringItem index="20" value="Arez"/>
+            <StringItem index="21" value=" "/>
+            <StringItem index="22" value="Assu"/>
+            <StringItem index="23" value=" "/>
+            <StringItem index="24" value="Ba&#xed;a Formosa"/>
+            <StringItem index="25" value=" "/>
+            <StringItem index="26" value="Bara&#xfa;na"/>
+            <StringItem index="27" value=" "/>
+            <StringItem index="28" value="Barcelona"/>
+            <StringItem index="29" value=" "/>
+            <StringItem index="30" value="Bento Fernandes"/>
+            <StringItem index="31" value=" "/>
+            <StringItem index="32" value="Boa Sa&#xfa;de"/>
+            <StringItem index="33" value=" "/>
+            <StringItem index="34" value="Bod&#xf3;"/>
+            <StringItem index="35" value=" "/>
+            <StringItem index="36" value="Bom Jesus"/>
+            <StringItem index="37" value=" "/>
+            <StringItem index="38" value="Brejinho"/>
+            <StringItem index="39" value=" "/>
+            <StringItem index="40" value="Cai&#xe7;ara do Norte"/>
+            <StringItem index="41" value=" "/>
+            <StringItem index="42" value="Cai&#xe7;ara do Rio do Vento"/>
+            <StringItem index="43" value=" "/>
+            <StringItem index="44" value="Caic&#xf3;"/>
+            <StringItem index="45" value=" "/>
+            <StringItem index="46" value="Campo Grande"/>
+            <StringItem index="47" value=" "/>
+            <StringItem index="48" value="Campo Redondo"/>
+            <StringItem index="49" value=" "/>
+            <StringItem index="50" value="Canguaretama"/>
+            <StringItem index="51" value=" "/>
+            <StringItem index="52" value="Cara&#xfa;bas"/>
+            <StringItem index="53" value=" "/>
+            <StringItem index="54" value="Carna&#xfa;ba dos Dantas"/>
+            <StringItem index="55" value=" "/>
+            <StringItem index="56" value="Cear&#xe1;-Mirim"/>
+            <StringItem index="57" value=" "/>
+            <StringItem index="58" value="Cerro Cor&#xe1;"/>
+            <StringItem index="59" value=" "/>
+            <StringItem index="60" value="Coronel Ezequiel"/>
+            <StringItem index="61" value=" "/>
+            <StringItem index="62" value="Coronel Jo&#xe3;o Pessoa"/>
+            <StringItem index="63" value=" "/>
+            <StringItem index="64" value="Cruzeta"/>
+            <StringItem index="65" value=" "/>
+            <StringItem index="66" value="Currais Novos"/>
+            <StringItem index="67" value=" "/>
+            <StringItem index="68" value="Doutor Severiano"/>
+            <StringItem index="69" value=" "/>
+            <StringItem index="70" value="Encanto"/>
+            <StringItem index="71" value=" "/>
+            <StringItem index="72" value="Equador"/>
+            <StringItem index="73" value=" "/>
+            <StringItem index="74" value="Esp&#xed;rito Santo"/>
+            <StringItem index="75" value=" "/>
+            <StringItem index="76" value="Extremoz"/>
+            <StringItem index="77" value=" "/>
+            <StringItem index="78" value="Felipe Guerra"/>
+            <StringItem index="79" value=" "/>
+            <StringItem index="80" value="Fernando Pedroza"/>
+            <StringItem index="81" value=" "/>
+            <StringItem index="82" value="Flor&#xe2;nia"/>
+            <StringItem index="83" value=" "/>
+            <StringItem index="84" value="Francisco Dantas"/>
+            <StringItem index="85" value=" "/>
+            <StringItem index="86" value="Frutuoso Gomes"/>
+            <StringItem index="87" value=" "/>
+            <StringItem index="88" value="Galinhos"/>
+            <StringItem index="89" value=" "/>
+            <StringItem index="90" value="Goianinha"/>
+            <StringItem index="91" value=" "/>
+            <StringItem index="92" value="Governador Dix-Sept Rosado"/>
+            <StringItem index="93" value=" "/>
+            <StringItem index="94" value="Grossos"/>
+            <StringItem index="95" value=" "/>
+            <StringItem index="96" value="Guamar&#xe9;"/>
+            <StringItem index="97" value=" "/>
+            <StringItem index="98" value="Ielmo Marinho"/>
+            <StringItem index="99" value=" "/>
+            <StringItem index="100" value="Ipangua&#xe7;u"/>
+            <StringItem index="101" value=" "/>
+            <StringItem index="102" value="Ipueira"/>
+            <StringItem index="103" value=" "/>
+            <StringItem index="104" value="Itaj&#xe1;"/>
+            <StringItem index="105" value=" "/>
+            <StringItem index="106" value="Ita&#xfa;"/>
+            <StringItem index="107" value=" "/>
+            <StringItem index="108" value="Ja&#xe7;an&#xe3;"/>
+            <StringItem index="109" value=" "/>
+            <StringItem index="110" value="Janda&#xed;ra"/>
+            <StringItem index="111" value=" "/>
+            <StringItem index="112" value="Jandu&#xed;s"/>
+            <StringItem index="113" value=" "/>
+            <StringItem index="114" value="Japi"/>
+            <StringItem index="115" value=" "/>
+            <StringItem index="116" value="Jardim de Angicos"/>
+            <StringItem index="117" value=" "/>
+            <StringItem index="118" value="Jardim de Piranhas"/>
+            <StringItem index="119" value=" "/>
+            <StringItem index="120" value="Jardim do Serid&#xf3;"/>
+            <StringItem index="121" value=" "/>
+            <StringItem index="122" value="Jo&#xe3;o C&#xe2;mara"/>
+            <StringItem index="123" value=" "/>
+            <StringItem index="124" value="Jo&#xe3;o Dias"/>
+            <StringItem index="125" value=" "/>
+            <StringItem index="126" value="Jos&#xe9; da Penha"/>
+            <StringItem index="127" value=" "/>
+            <StringItem index="128" value="Jucurutu"/>
+            <StringItem index="129" value=" "/>
+            <StringItem index="130" value="Jundi&#xe1;"/>
+            <StringItem index="131" value=" "/>
+            <StringItem index="132" value="Lagoa d&#x2019;Anta"/>
+            <StringItem index="133" value=" "/>
+            <StringItem index="134" value="Lagoa de Pedras"/>
+            <StringItem index="135" value=" "/>
+            <StringItem index="136" value="Lagoa de Velhos"/>
+            <StringItem index="137" value=" "/>
+            <StringItem index="138" value="Lagoa Salgada"/>
+            <StringItem index="139" value=" "/>
+            <StringItem index="140" value="Lajes"/>
+            <StringItem index="141" value=" "/>
+            <StringItem index="142" value="Lajes Pintadas"/>
+            <StringItem index="143" value=" "/>
+            <StringItem index="144" value="Lucr&#xe9;cia"/>
+            <StringItem index="145" value=" "/>
+            <StringItem index="146" value="Lu&#xed;s Gomes"/>
+            <StringItem index="147" value=" "/>
+            <StringItem index="148" value="Maca&#xed;ba"/>
+            <StringItem index="149" value=" "/>
+            <StringItem index="150" value="Macau"/>
+            <StringItem index="151" value=" "/>
+            <StringItem index="152" value="Major Sales"/>
+            <StringItem index="153" value=" "/>
+            <StringItem index="154" value="Marcelino Vieira"/>
+            <StringItem index="155" value=" "/>
+            <StringItem index="156" value="Martins"/>
+            <StringItem index="157" value=" "/>
+            <StringItem index="158" value="Maxaranguape"/>
+            <StringItem index="159" value=" "/>
+            <StringItem index="160" value="Messias Targino"/>
+            <StringItem index="161" value=" "/>
+            <StringItem index="162" value="Montanhas"/>
+            <StringItem index="163" value=" "/>
+            <StringItem index="164" value="Monte Alegre"/>
+            <StringItem index="165" value=" "/>
+            <StringItem index="166" value="Monte das Gameleiras"/>
+            <StringItem index="167" value=" "/>
+            <StringItem index="168" value="Mossor&#xf3;"/>
+            <StringItem index="169" value=" "/>
+            <StringItem index="170" value="Natal"/>
+            <StringItem index="171" value=" "/>
+            <StringItem index="172" value="Nova Cruz"/>
+            <StringItem index="173" value=" "/>
+            <StringItem index="174" value="N&#xed;sia Floresta"/>
+            <StringItem index="175" value=" "/>
+            <StringItem index="176" value="Paracuri"/>
+            <StringItem index="177" value=" "/>
+            <StringItem index="178" value="Paran&#xe1;"/>
+            <StringItem index="179" value=" "/>
+            <StringItem index="180" value="Parnamirim"/>
+            <StringItem index="181" value=" "/>
+            <StringItem index="182" value="Passa e Fica"/>
+            <StringItem index="183" value=" "/>
+            <StringItem index="184" value="Patu"/>
+            <StringItem index="185" value=" "/>
+            <StringItem index="186" value="Pau dos Ferros"/>
+            <StringItem index="187" value=" "/>
+            <StringItem index="188" value="Pedra Grande"/>
+            <StringItem index="189" value=" "/>
+            <StringItem index="190" value="Pedro Velho"/>
+            <StringItem index="191" value=" "/>
+            <StringItem index="192" value="Pil&#xf5;es"/>
+            <StringItem index="193" value=" "/>
+            <StringItem index="194" value="Po&#xe7;o Branco"/>
+            <StringItem index="195" value=" "/>
+            <StringItem index="196" value="Porto do Mangue"/>
+            <StringItem index="197" value=" "/>
+            <StringItem index="198" value="Porto Velho"/>
+            <StringItem index="199" value=" "/>
+            <StringItem index="200" value="Rafael Fernandes"/>
+            <StringItem index="201" value=" "/>
+            <StringItem index="202" value="Rafael Godeiro"/>
+            <StringItem index="203" value=" "/>
+            <StringItem index="204" value="Raimundo Nonato"/>
+            <StringItem index="205" value=" "/>
+            <StringItem index="206" value="Rajorlandia"/>
+            <StringItem index="207" value=" "/>
+            <StringItem index="208" value="Ribeira"/>
+            <StringItem index="209" value=" "/>
+            <StringItem index="210" value="Riacho de Santana"/>
+            <StringItem index="211" value=" "/>
+            <StringItem index="212" value="Riachuelo"/>
+            <StringItem index="213" value=" "/>
+            <StringItem index="214" value="Rio do Fogo"/>
+            <StringItem index="215" value=" "/>
+            <StringItem index="216" value="Rodolfo Fernandes"/>
+            <StringItem index="217" value=" "/>
+            <StringItem index="218" value="Rog&#xe9;rio"/>
+            <StringItem index="219" value=" "/>
+            <StringItem index="220" value="Santa Cruz"/>
+            <StringItem index="221" value=" "/>
+            <StringItem index="222" value="Santa Maria"/>
+            <StringItem index="223" value=" "/>
+            <StringItem index="224" value="Santana do Matos"/>
+            <StringItem index="225" value=" "/>
+            <StringItem index="226" value="S&#xe3;o Bento do Norte"/>
+            <StringItem index="227" value=" "/>
+            <StringItem index="228" value="S&#xe3;o Gon&#xe7;alo do Amarante"/>
+            <StringItem index="229" value=" "/>
+            <StringItem index="230" value="S&#xe3;o Jo&#xe3;o do Sabugi"/>
+            <StringItem index="231" value=" "/>
+            <StringItem index="232" value="S&#xe3;o Jos&#xe9; de Mipibu"/>
+            <StringItem index="233" value=" "/>
+            <StringItem index="234" value="S&#xe3;o Jos&#xe9; do Campestre"/>
+            <StringItem index="235" value=" "/>
+            <StringItem index="236" value="S&#xe3;o Jos&#xe9; do Serid&#xf3;"/>
+            <StringItem index="237" value=" "/>
+            <StringItem index="238" value="S&#xe3;o Miguel"/>
+            <StringItem index="239" value=" "/>
+            <StringItem index="240" value="S&#xe3;o Paulo do Potengi"/>
+            <StringItem index="241" value=" "/>
+            <StringItem index="242" value="S&#xe3;o Pedro"/>
+            <StringItem index="243" value=" "/>
+            <StringItem index="244" value="Serra Cai&#xe7;ara"/>
+            <StringItem index="245" value=" "/>
+            <StringItem index="246" value="Serra do Mel"/>
+            <StringItem index="247" value=" "/>
+            <StringItem index="248" value="Serrinha dos Pintos"/>
+            <StringItem index="249" value=" "/>
+            <StringItem index="250" value="S&#xed;tio Novo"/>
+            <StringItem index="251" value=" "/>
+            <StringItem index="252" value="Taboleiro Grande"/>
+            <StringItem index="253" value=" "/>
+            <StringItem index="254" value="Tangar&#xe1;"/>
+            <StringItem index="255" value=" "/>
+            <StringItem index="256" value="Tenente Ananias"/>
+            <StringItem index="257" value=" "/>
+            <StringItem index="258" value="Tibau do Sul"/>
+            <StringItem index="259" value=" "/>
+            <StringItem index="260" value="Timba&#xfa;ba dos Batistas"/>
+            <StringItem index="261" value=" "/>
+            <StringItem index="262" value="Touros"/>
+            <StringItem index="263" value=" "/>
+            <StringItem index="264" value="Triunfo Potiguar"/>
+            <StringItem index="265" value=" "/>
+            <StringItem index="266" value="Umarizal"/>
+            <StringItem index="267" value=" "/>
+            <StringItem index="268" value="Umburanas"/>
+            <StringItem index="269" value=" "/>
+            <StringItem index="270" value="V&#xe1;rzea"/>
+            <StringItem index="271" value=" "/>
+            <StringItem index="272" value="Venha-Ver"/>
+            <StringItem index="273" value=" "/>
+            <StringItem index="274" value="Vi&#xe7;osa"/>
+            <StringItem index="275" value=" "/>
+            <StringItem index="276" value="Vila Flor"/>
+            <StringItem index="277" value=" "/>
+            <StringItem index="278" value="Vila Nova"/>
+            <StringItem index="279" value=" "/>
+            <StringItem index="280" value="Vila Rica"/>
+            <StringItem index="281" value=" "/>
+            <StringItem index="282" value="Willy Brandt"/>
+            <StringItem index="283" value=" "/>
+            <StringItem index="284" value="Zabel&#xea;"/>
+            <StringItem index="285" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="36" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
